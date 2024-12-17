@@ -1,3 +1,4 @@
+
 .logo-svg {
     width: 101.49px;
     height: 36px;
@@ -39,5 +40,72 @@
     border-radius: 2px;
     margin-left: 87px;
     margin-top: 44px;
+    transition: all 50ms;
     position: relative;
+    font-family: sans-serif;
+}
+
+.enter-button:hover {
+    background-color: #0366c2;
+    width: 116px;
+}
+
+.buy-button {
+    background-color: white;
+    display: flex;
+    width: 105px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #595959;
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #d9d9d9;
+    margin-left: 10px;
+    margin-top: 44px;
+    font-family: sans-serif;
+    transition: all 50ms;
+}
+
+.buy-button:hover {
+    width: 130px;
+    background-color: #8ee4af;
+}
+
+.container-promo {
+    background-color: #FFF1B8;
+    width: 1200px;
+    height: 300px;
+    margin-left: 120px;
+    margin-top: 40px;
+    background-image: url(images/382142-svetik-removebg-preview\ 1.svg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.promo-text_1 {
+    font-size: 39px;
+    font-weight: bold;
+    font-family: "Roboto1";
+    color: #302C34;
+    margin-left: 70px;
+    margin-top: 68px;
+}
+.promo-text_2 {
+    font-size: 24px;
+    font-family: "Roboto1";
+    color: #302C34;
+    margin-left: 70px;
+    margin-bottom: 68px;
+    position: relative;
+    bottom: 20px;
+}
+
+@font-face {
+    font-family:"Roboto1" ;
+    src: url(fonts/Roboto-Regular.ttf);
 }
