@@ -1,0 +1,43 @@
+.logo-svg {
+    width: 101.49px;
+    height: 36px;
+    margin-top: 44px;
+    margin-left: 121.51px;
+}
+
+.header-index {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.header-search {
+    width: 690px;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid #d9d9d9;
+    font-style: 16px;
+    line-height: 24px;
+    background-color: white;
+    background-image: url(images/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: left 11px center;
+    padding-left: 35px;
+    margin-left: 102px;
+    margin-top: 44px;
+  }
+
+.enter-button {
+    background-color: #1890ff;
+    display: flex;
+    width: 96px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin-left: 87px;
+    margin-top: 44px;
+    position: relative;
+}
