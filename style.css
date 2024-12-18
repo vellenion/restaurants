@@ -1,4 +1,6 @@
-
+body {
+    font-family: "Roboto1";
+}
 .logo-svg {
     width: 101.49px;
     height: 36px;
@@ -85,6 +87,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    position: relative;
 }
 
 .promo-text_1 {
@@ -101,11 +104,99 @@
     color: #302C34;
     margin-left: 70px;
     margin-bottom: 68px;
-    position: relative;
     bottom: 20px;
+    position: relative;
 }
 
 @font-face {
     font-family:"Roboto1" ;
     src: url(fonts/Roboto-Regular.ttf);
+}
+
+.restaurant-title {
+    margin-left: 120px;
+    margin-top: 29px;
+    font-size: 36px ;
+    font-weight: bold;
+    width: 190px;
+    height: 42px;
+    font-family: "roboto1";
+}
+
+
+.container_search_restaurants {
+    display: flex;
+}
+
+.food-search {
+    width: 306px;
+    height: 34px;
+    margin-left: 705px;
+    margin-top: 32px;
+    background-image: url("images/search.svg");
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 32px;
+    border: solid 2px #d9d9d9;
+    border-radius: 2px;
+}
+
+.card-container {
+    margin-top: 44px;
+    display: flex;
+    margin-left: 120px;
+}
+
+.card {
+    width: 384px;
+    height: 379px;
+}
+
+.card-bottom {
+    display: flex;
+    width: 334px;
+    height: 74px    ;
+}
+
+.card-time {
+    background-color: #262626;
+    width: 55px;
+    height: 22px;
+    margin-top: 25px;
+    color: white;
+    border-radius: 2px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 259px;
+    height: 32px;
+    margin-left: 24px;
+}   
+
+.card-info {
+   display: flex;
+   margin-top: 10px;
+   margin-left: 24px;
+}
+
+.card-rating {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.card-rating::before {
+    content: url("images/Vectorstar.svg");
+    margin-right: 8px;
+}
+
+.card-price {
+    color: #8C8C8C;
+
 }
