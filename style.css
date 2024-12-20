@@ -260,3 +260,13 @@ body {
     justify-content: space-between;
     display: flex;
 }
+
+.enter-button-link {
+    text-decoration: none;
+    color: white;
+}
+
+.buy-button-link {
+    text-decoration: none;
+    color: #595959;
+}
