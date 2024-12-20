@@ -162,6 +162,7 @@ body {
     text-decoration: none;
     color: black;
     background-color: white;
+    border-radius: 7px;
 }
 
 .card-bottom {
@@ -269,4 +270,122 @@ body {
 .buy-button-link {
     text-decoration: none;
     color: #595959;
+}
+
+.selected-restaurant {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 119px;
+    align-items: center;
+}
+
+.selected-restaurant-name {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.selected-restaurant-rating {
+    color: #ffc107;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.selected-restaurant-rating::before {
+    content: url(images/Vectorstar.svg);
+    margin-right: 7px;
+}
+
+.selected-restaurant-price_1 {
+    color: #8c8c8c;
+    margin-left: 26px;
+}
+.selected-restaurant-price_2 {
+    color: #8c8c8c;
+}
+
+.selected-restaurant-price_1::after {
+    content: url(images/eclipse1.svg);
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    bottom: 3px;
+}
+
+.card-info_food {
+    margin-top: 24px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-name_food {
+    font-size: 24px;
+}
+
+.card-text_food {
+    color: #8C8C8C;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.card-buy-button {
+    width: 124px;
+    height: 40px;
+    background-color: #1890FF;
+    margin-left: 24px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 24px;
+    color: white;
+    background-image: url(images/buy2.svg);
+    background-position: left 92px center;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-left:16px;
+}
+
+.card_food {
+    width: 384px;
+    height: 413px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.card-container_food {
+    margin-top: 45px;
+    display: flex;
+    margin-left: 120px;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 859px;
+    justify-content: space-between;
+}
+
+.card-price_food {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 32px;
+    margin-top: 28px;
+}
+.links {
+    text-decoration: none;
+}
+
+.footer-social-container_food {
+    width: 127px;
+    height: 25px;
+    margin-left: 515px;
+    margin-top: 55px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.footer-info_food {
+    background-color: white;
+    margin-top: 115px;
+    height: 151px;
+    display: flex;
 }
