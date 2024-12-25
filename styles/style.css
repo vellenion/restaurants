@@ -398,7 +398,33 @@ button {
 
 .footer-info_food {
     background-color: white;
-    margin-top: 115px;
-    height: 151px;
+    margin-top: 112px;
+    height: 153px;
     display: flex;
 }
+
+.footer-logo_food {
+    margin-top: 52px;
+    margin-left: 121px;
+    width: 100px;
+    height: 36px;
+}
+
+.footer-links-container_food {
+    display: flex;
+    width: 420px;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 35px;
+}
+
+.footer-social-container_food {
+    width: 127px;
+    height: 25px;
+    margin-left: 515px;
+    margin-top: 58px;
+    justify-content: space-between;
+    display: flex;
+}
+
+
