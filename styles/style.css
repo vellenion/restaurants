@@ -2,22 +2,23 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1200;
+    margin: 0 auto;
+}
 body {
     font-family: "Roboto1";
-    background-color: #f5f5f5;
 }
-.logo-svg {
-    width: 101.49px;
-    height: 36px;
-    margin-top: 44px;
-    margin-left: 121.51px;
+
+main {
+    background-color: #f5f5f5;
 }
 
 .header-index {
     display: flex;
-    flex-direction: row;
-    position: relative;
+    justify-content: space-between;
 }
+
 
 .header-search {
     width: 690px;
@@ -31,61 +32,55 @@ body {
     background-repeat: no-repeat;
     background-position: left 11px center;
     padding-left: 35px;
-    margin-left: 102px;
-    margin-top: 44px;
   }
 
-.enter-button {
-    background-color: #1890ff;
+.header-box {
     display: flex;
-    width: 96px;
-    height: 40px;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    border: none;
-    border-radius: 2px;
-    margin-left: 87px;
-    margin-top: 44px;
-    transition: all 50ms;
-    position: relative;
-    font-family: sans-serif;
+    justify-content: space-between;
+    width: 1200px;
 }
 
-.enter-button:hover {
+.header-box_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 892px;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 219px;
+    align-items: center;
+}
+
+
+button:hover {
     background-color: #0366c2;
     width: 116px;
 }
 
-.buy-button {
+button {
     background-color: white;
     display: flex;
     width: 105px;
     height: 40px;
     align-items: center;
     justify-content: center;
-    color: #595959;
     border: 1px solid;
     border-radius: 2px;
     border-color: #d9d9d9;
-    margin-left: 10px;
-    margin-top: 44px;
     font-family: sans-serif;
-    transition: all 50ms;
+    transition: all 75ms;
+    color: black;
 }
 
-.buy-button:hover {
-    width: 130px;
-    background-color: #8ee4af;
-}
-
-.container-promo {
+.promo {
     background-color: #FFF1B8;
     width: 1200px;
     height: 300px;
-    margin-left: 120px;
     margin-top: 40px;
-    background-image: url(images/382142-svetik-removebg-preview\ 1.svg);
+    background-image: url(../images/382142-svetik-removebg-preview\ 1.svg);
     background-position: right center;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -93,6 +88,12 @@ body {
     justify-content: center;
     flex-direction: column;
     position: relative;
+}
+
+.promo-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .promo-text_1 {
@@ -115,11 +116,10 @@ body {
 
 @font-face {
     font-family:"Roboto1" ;
-    src: url(fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
 }
 
 .restaurant-title {
-    margin-left: 120px;
     margin-top: 29px;
     font-size: 36px ;
     font-weight: bold;
@@ -129,14 +129,20 @@ body {
 }
 
 
-.container_search_restaurants {
+.search_restaurants {
     display: flex;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.search_restaurants-box {
+    display: flex;
+    justify-content: center;
 }
 
 .food-search {
     width: 306px;
     height: 34px;
-    margin-left: 705px;
     margin-top: 32px;
     background-image: url("images/search.svg");
     background-repeat: no-repeat;
@@ -146,14 +152,18 @@ body {
     border-radius: 2px;
 }
 
-.card-container {
+.cards {
     margin-top: 44px;
     display: flex;
-    margin-left: 120px;
     flex-wrap: wrap;
     width: 1200px;
     height: 790px;
     justify-content: space-between;
+}
+
+.cards-box {
+    display: flex;
+    justify-content: center;
 }
 
 .card {
@@ -226,25 +236,30 @@ body {
 }
 
 .footer-info {
-    background-color: white;
     margin-top: 80px;
     height: 174px;
     display: flex;
+    justify-content: center ;
 }
 
-.footer-logo {
-    margin-top: 62px;
-    margin-left: 121px;
-    width: 100px;
-    height: 43px;
+.footer-box {
+    display:flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-box_left {
+    display: flex;
+    width: 556px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-links-container {
     display: flex;
     width: 420px;
     justify-content: space-between;
-    margin-top: 86px;
-    margin-left: 35px;
 }
 
 .footer-link {
@@ -253,21 +268,19 @@ body {
     font-size: 18px;
 }
 
+.footer-flex {
+    display-flex;
+    justify-content: center;
+}
+
 .footer-social-container {
     width: 127px;
     height: 25px;
-    margin-left: 515px;
-    margin-top: 74px;
     justify-content: space-between;
     display: flex;
 }
 
-.enter-button-link {
-    text-decoration: none;
-    color: white;
-}
-
-.buy-button-link {
+.button-link {
     text-decoration: none;
     color: #595959;
 }

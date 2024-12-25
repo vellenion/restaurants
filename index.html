@@ -4,37 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Рестораны</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header class="header-index">
-        <div>
-            <a href="index.html"><img src="images/logo.svg" alt="" class="logo-svg"></a>
+        <div class="container">
+            <div class="header-box">
+                <div class="header-box_left">
+                    <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+                    <input type="search" class="header-search" placeholder="Адрес доставки">
+                </div>
+            <div class="header-buttons">
+                <button>
+                    <img src="images/user.svg" alt="Картинка не загрузилась">
+                    <a href="#" class="button-link">Войти</a>
+                </button>
+                <button>
+                    <img src="images/buy.svg" alt="Картинка не загрузилась">
+                    <a href="#" class="button-link">Корзина</a>
+                </button>
+            </div>
         </div>
-        <div>
-            <input type="search" class="header-search" placeholder="Адрес доставки">
-        </div>
-        <button class="enter-button">
-            <img src="images/user.svg" alt="">
-            <a href="#" class="enter-button-link">Войти</a>
-        </button>
-        <button class="buy-button">
-            <img src="images/buy.svg" alt="">
-            <a href="#" class="buy-button-link">Корзина</a>
-        </button>
     </header>
+    </div>
     <main>
-        <div class="container-promo">
-            <p class="promo-text_1">Онлайн-сервис<br> доставки еды на дом</p>
-            <span class="promo-text_2">Блюда из любимого ресторана привезет<br> курьер в перчатках, маске и с антисептиком</span>
+        <div class="container">
+            <div class="promo-flex">
+                <div class="promo">
+                    <p class="promo-text_1">Онлайн-сервис<br> доставки еды на дом</p>
+                    <span class="promo-text_2">Блюда из любимого ресторана привезет<br> курьер в перчатках, маске и с антисептиком</span>
+                </div>
+            </div>
         </div>
-        <div class="container_search_restaurants">
-            <p class="restaurant-title">Рестораны</p>
-            <input type="search" placeholder="Поиск блюд и ресторанов" class="food-search" >
-        </div>
-        <div class="card-container">
+            <div class="container">
+                <div class="search_restaurants-box">
+                    <div class="search_restaurants">
+                        <p class="restaurant-title">Рестораны</p>
+                        <input type="search" placeholder="Поиск блюд и ресторанов" class="food-search" >
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="cards-box">
+                    <div class="cards">
             <a class="card" href="#">
-                <img src="images/pizza-plus.png" alt="">
+                <img src="images/pizza-plus.png" alt="Картинка не загрузилась">
                 <div class="card-bottom">
                     <p class="card-text">Пицца плюс</p>
                     <span class="card-time">50 мин</span>
@@ -48,7 +62,7 @@
                 </div>
             </a>
             <a class="card" href="tanuki.html">
-                <img src="images/tanuki.png" alt="">
+                <img src="images/tanuki.png" alt="Картинка не загрузилась">
                 <div class="card-bottom">
                     <p class="card-text">Тануки</p>
                     <span class="card-time">50 мин</span>
@@ -62,7 +76,7 @@
                 </div>
             </a>
             <a class="card" href="#">
-                <img src="images/foodband.png" alt="">
+                <img src="images/foodband.png" alt="Картинка не загрузилась">
                 <div class="card-bottom">
                     <p class="card-text">FoodBand</p>
                     <span class="card-time">50 мин</span>
@@ -76,7 +90,7 @@
                 </div>
             </a>
             <a class="card" href="#">
-                <img src="images/greedpizza.png" alt="">
+                <img src="images/greedpizza.png" alt="Картинка не загрузилась">
                 <div class="card-bottom">
                     <p class="card-text">Жадина-пицца</p>
                     <span class="card-time">50 мин</span>
@@ -90,7 +104,7 @@
                 </div>
             </a>
             <a class="card" href="#">
-                <img src="images/pointoffood.png" alt="">
+                <img src="images/pointoffood.png" alt="Картинка не загрузилась">
                 <div class="card-bottom">
                     <p class="card-text">Точка еды</p>
                     <span class="card-time">50 мин</span>
@@ -104,7 +118,7 @@
                 </div>
             </a>
             <a class="card" href="#">
-                <img src="images/pizzaburger.png" alt="">
+                <img src="images/pizzaburger.png" alt="Картинка не загрузилась">
                 <div class="card-bottom">
                     <p class="card-text">PizzaBurger</p>
                     <span class="card-time">50 мин</span>
@@ -117,20 +131,30 @@
                     </div>
                 </div>
             </a>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer-info">
-        <a href="index.html"><img src="images/logo.svg" alt="Delivey Food" class="footer-logo"></a>
-        <div class="footer-links-container">
-            <a href="#" class="footer-link">Рестораны</a>
-            <a href="#" class="footer-link">Курьерам</a>
-            <a href="#" class="footer-link">Пресс-центр</a>
-            <a href="#" class="footer-link">Контакты</a>
-        </div>
-        <div class="footer-social-container_food">
-            <a href="#"><img src="images/inst.svg" alt=""></a>
-            <a href="#"><img src="images/facebook.svg" alt=""></a>
-            <a href="#"><img src="images/vk.svg" alt=""></a>
+        <div class="container">
+            <div class="footer-box">
+                <div class="footer-box_left">
+                    <a href="index.html"><img src="images/logo.svg" alt="Delivey Food"></a>
+                    <div class="footer-links-container">
+                        <a href="#" class="footer-link">Рестораны</a>
+                        <a href="#" class="footer-link">Курьерам</a>
+                        <a href="#" class="footer-link">Пресс-центр</a>
+                        <a href="#" class="footer-link">Контакты</a>
+                    </div>
+                </div>
+                    <div class="footer-social-container">
+                        <a href="#"><img src="images/inst.svg" alt="Картинка не загрузилась"></a>
+                        <a href="#"><img src="images/facebook.svg" alt="Картинка не загрузилась"></a>
+                        <a href="#"><img src="images/vk.svg" alt="Картинка не загрузилась"></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
